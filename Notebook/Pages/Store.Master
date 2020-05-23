@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Store.master.cs" Inherits="Notebook.Pages.Store" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>PeopleList</title>
+    <link rel="stylesheet" href="/Content/Styles.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        <div id="header">
+            <div class="title">PeopleList - список людей</div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="bodyContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+            </div>
+    </form>
+</body>
+</html>
